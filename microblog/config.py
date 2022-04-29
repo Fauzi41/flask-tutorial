@@ -1,7 +1,9 @@
 import os
 from dotenv import load_dotenv
-load_dotenv(verbose=True)
+
+
 basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv(verbose=True)
 
 
 class Config(object):
@@ -16,5 +18,6 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     # ADMINS = ['anas@walscout.com']
     ADMINS = ['codionapp@gmail.com']
+    LANGUAGES = ['en', 'es']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     POSTS_PER_PAGE = 10
-    LANGUAGES = ['en', 'id']
