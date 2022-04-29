@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-29 19:05+0700\n"
+"POT-Creation-Date: 2022-04-29 19:49+0700\n"
 "PO-Revision-Date: 2022-04-29 19:05+0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: id\n"
@@ -18,17 +18,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.1\n"
 
-#: app/routes.py:21
+#: app/routes.py:28
 msgid "Your post is now live!"
 msgstr ""
 
-#: app/routes.py:43
+#: app/routes.py:50
 msgid "Invalid username or password"
 msgstr ""
 
-#: app/routes.py:123 app/routes.py:143
+#: app/routes.py:130 app/routes.py:150
 #, python-format
 msgid "User %(username)s not found."
+msgstr ""
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:18
+msgid "Error: the translation service failed."
 msgstr ""
 
 #: app/templates/404.html:4
@@ -37,5 +45,42 @@ msgstr ""
 
 #: app/templates/404.html:5
 msgid "Back"
+msgstr ""
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr ""
+
+#: app/templates/base.html:21
+msgid "Home"
+msgstr ""
+
+#: app/templates/base.html:22
+msgid "Explore"
+msgstr ""
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr ""
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
 msgstr ""
 
